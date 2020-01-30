@@ -1,0 +1,47 @@
+h1{
+	text-align: center;
+}
+.container{
+	width: 100vw;
+}
+section{
+	width: 100vw;
+}
+article{
+	padding: 2%;
+}
+.primero{
+	width: 46%;
+	float: left;
+}
+.segundo{
+	width: 46%;
+	float: left;
+}
+.imagen{
+	width: 100%;
+	text-align: center;
+}
+.t-imagen{
+	text-align: center;
+	width: 25%;
+	height: 25%;
+}
+.descarga h2{
+	clear: both;
+	text-align: center;
+}
+.descarga-archivo{
+	width: 20%;
+	float: left;
+	border: 1px solid red;
+	margin: 1%;
+	padding: 1%;
+}
+p{
+	text-align: justify;
+}
+footer{
+	clear: both;
+	text-align: center;
+}

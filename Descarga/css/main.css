@@ -1,0 +1,30 @@
+h1{
+	text-align: center;
+	margin: 5%;
+}
+.container{
+	width: 100%;
+}
+.imagen{
+	text-align: center;
+}
+.t-imagen{
+	text-align: center;
+	width: 25%;
+	height: 25%;
+}
+.descarga h2{
+	text-align: center;
+}
+.col-md-3{ 
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+p{
+	text-align: justify;
+}
+footer{
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+}
