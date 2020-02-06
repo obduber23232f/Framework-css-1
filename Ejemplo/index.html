@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<title>Clase 2</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<section id="contenedores-fijo">
+		<h2>Contenedores Fijo</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="contenedor-fijo"><h3>.container</h3></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 uno">
+					<div class="contenedor-fijo"><h3>.container</h3></div>
+				</div>
+				<div class="col-sm-6 col-md-6 dos">
+					<div class="contenedor-fijo"><h3>.container</h3></div>
+				</div>
+				<div class="col-sm-6 col-md-6 tres">
+					<div class="contenedor-fijo"><h3>.container</h3></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contenedores-variables">
+		<h2>Contenedores Variables</h2>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="contenedor-variable"><h3>.container-fluid</h3></div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 uno">
+					<div class="contenedor-variable"><h3>.container-fluid 6 COLUMNAS FILA 1</h3></div>
+				</div>
+				<div class="col-sm-6 col-md-6 dos">
+					<div class="contenedor-variable"><h3>.container-fluid 6 COLUMNAS FILA 1</h3></div>
+				</div>
+				<div class="col-sm-6 col-md-6 tres">
+					<div class="contenedor-variable"><h3>.container-fluid 6 COLUMNAS FILA 1</h3></div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section id="ajuste-columnas">
+		<!--h2>Adaptacion de las Columnas</h2>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hidden-xs col-sm-6 hidden-md hidden-lg">
+					<div class="mayor"><h3>.col-sm-6</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-4 hidden-lg">
+					<div class="mayor"><h3>.col-md-4</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+				</div>
+				<div class="hidden-xs col-sm-6 hidden-md hidden-lg">
+					<div class=""><h3>.col-sm-6</h3></div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-4 hidden-lg">
+					<div class=""><h3>.col-md-4</h3></div>
+				</div-->
+				<!--div class="clearfix"></div-->
+				<!--div class="hidden-xs hidden-sm col-md-6 hidden-lg">
+					<div class=""><h3>col-md-6</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-6 hidden-md hidden-lg">
+					<div class=""><h3>col-sm-6</h3></div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-6 hidden-lg">
+					<div class=""><h3>col-md-6</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-6 hidden-md hidden-lg">
+					<div class=""><h3>col-sm-6</h3></div>
+				</div>
+			</div>
+		</div-->
+	</section>
+	<section id="desplazando-columnas">
+		<!--h2>Desplazando Columnas</h2>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hidden-xs col-sm-2 hidden-md hidden-lg">
+					<div class=""><h3>2 columnas</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-2 hidden-md hidden-lg">
+					<div class=""><h3>2 columnas</h3></div>	
+				</div>
+				<div class="hidden-xs col-sm-4 hidden-md hidden-lg">
+					<div class=""><h3>4 columnas</h3></div>	
+				</div>
+				<div class="hidden-xs hidden-sm col-md-4 hidden-lg">
+					<div class=""><h3>4 columnas</h3></div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-2 col-md-offset-2 hidden-lg">
+					<div class=""><h3>2 columnas</h3></div>	
+				</div>
+				<div class="hidden-xs hidden-sm col-md-4 hidden-lg">
+					<div class=""><h3>4 columnas</h3></div>	
+				</div>
+				<div class="hidden-xs hidden-sm hidden-md col-lg-4">
+					<div class=""><h3>4 columnas</h3></div>
+				</div>
+				<div class="hidden-xs hidden-sm hidden-md col-lg-2">
+					<div class=""><h3>2 columnas</h3></div>	
+				</div>
+				<div class="hidden-xs hidden-sm hidden-md col-lg-4 col-lg-offset-2">
+					<div class=""><h3>4 columnas</h3></div>	
+				</div>
+			</div>
+		</div-->
+	</section>
+	<section id="aninando-columnas">
+		<!--h2>Aninando Columnas</h2>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hidden-xs col-sm-9 hidden-md hidden-lg">
+					<div class="row">
+						<div class="col-sm-6 hidden-md"><h3>9-6 col</h3></div>
+						<div class="col-sm-6 hidden-md"><h3>9-6 col</h3></div>
+						<div class="hidden-sm hidden-md"><h3>7-4 col</h3></div>
+					</div>
+				</div>
+				<div class="hidden-xs col-sm-3 hidden-md hidden-lg">
+					<div class="row">
+						<div class="hidden-xs col-sm-12 hidden-md"><h3>3-12 col</h3></div>
+						<div class="hidden-xs hidden-sm hidden-md"><h3>3-6 col</h3></div>
+					</div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-7">
+					<div class="row">
+						<div class="hidden-sm col-md-4"><h3>7-4 col</h3></div>
+						<div class="hidden-sm col-md-4"><h3>7-4 col</h3></div>
+						<div class="hidden-sm col-md-4"><h3>7-4 col</h3></div>
+					</div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-3">
+					<div class="row">
+						<div class="hidden-xs hidden-sm col-md-6"><h3>3-6 col</h3></div>
+						<div class="hidden-xs hidden-sm col-md-6"><h3>3-6 col</h3></div>
+					</div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-2">
+					<div class=""><h3>2 col</h3></div>
+				</div>
+			</div>
+		</div-->
+	</section>
+	<section id="reordenando-columnas">
+		<!--h2>Reordenando Columnas</h2>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hidden-xs col-sm-4 col-md-4 hidden-lg original uno">
+					<div class=""><h3>Izquierda</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-4 col-md-4 hidden-lg original dos">
+					<div class=""><h3>Medio</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-4 col-md-4 hidden-lg original tres">
+					<div class=""><h3>Derecha</h3></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="hidden-xs col-sm-4 col-sm-push-8 col-md-4 col-md-push-4 hidden-lg reordenado uno">
+					<div class=""><h3>Izquierda</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-4 col-sm-pull-4 col-md-4 col-md-push-4 hidden-lg reordenado dos">
+					<div class=""><h3>Medio</h3></div>
+				</div>
+				<div class="hidden-xs col-sm-4 col-sm-pull-4 col-md-4 col-md-pull-8 hidden-lg reordenado tres">
+					<div class=""><h3>Derecha</h3></div>
+				</div>
+			</div>
+		</div-->
+	</section>
+	<section id="botones">
+		<!--h2>Botones</h2>
+		<h3>Botones con .css Bootstrap</h3>
+		<h4>Presentación Original</h4>
+		<a class="btn btn-default" href="#" role="button">Enlace</a>
+		<button class="btn btn-default" type="submit">Boton</button>
+		<input class="btn btn-default" type="button" value="Enviar">
+		<input class="btn btn-default" type="submit" value="Suministrar"-->
+		<!--h3>Utilizando la Grid de Bootstrap</h3>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3"><a class="btn btn-default" href="#" role="button">Enlace</a></div>
+				<div class="col-md-3"><button class="btn btn-default" type="submit">Boton</button></div>
+				<div class="col-md-3"><input class="btn btn-default" type="button" value="Enviar"></div>
+				<div class="col-md-3"><input class="btn btn-default" type="submit" value="Suministrar"></div>
+			</div>
+		</div-->
+		<!--h3>Botón para el Ancho Completo de las Columnas</h3>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6"><button class="btn btn-default" type="button">Botón Estándar</button></div>
+				<div class="col-md-6"><button class="btn btn-block btn-default" type="button">Botón con Ancho Completo .btn-block</button></div>
+			</div>
+		</div-->
+		<!--h3>Botones con Colores y Funciones Predeterminados</h3>
+		<h4>Presentacion Original</h4>
+		<button type="button" class="btn btn-default">Estandar</button>
+		<button type="button" class="btn btn-primary">Primario</button>
+		<button type="button" class="btn btn-success">Éxito</button>
+		<button type="button" class="btn btn-info">Información</button>
+		<button type="button" class="btn btn-warning">Advertencia</button>
+		<button type="button" class="btn btn-danger">Peligro</button>
+		<button type="button" class="btn btn-link">Enlace</button>
+		<h4>Utilizando la Grid de Bootstrap</h4>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-1 col-md-offset-2"><button type="button" class="btn btn-default">Estandar</button></div>
+				<div class="col-md-1"><button type="button" class="btn btn-primary">Primario</button></div>
+				<div class="col-md-1"><button type="button" class="btn btn-success">Éxito</button></div>
+				<div class="col-md-1"><button type="button" class="btn btn-info">Información</button></div>
+				<div class="col-md-1"><button type="button" class="btn btn-warning">Advertencia</button></div>
+				<div class="col-md-1"><button type="button" class="btn btn-danger">Peligro</button></div>
+				<div class="col-md-1"><button type="button" class="btn btn-link">Enlace</button></div>
+			</div>
+		</div-->
+		<!--h3>Tamaño de los Botones</h3>
+		<button type="button" class="btn btn-primary btn-lg">Grande</button>
+		<button type="button" class="btn btn-primary">Normal</button>
+		<button type="button" class="btn btn-primary btn-sm">Pequeño</button>
+		<button type="button" class="btn btn-primary btn-xs">Extra Pequeño</button-->
+		<!--h3>Botones Activos e Inactivos</h3>
+		<button type="button" class="btn btn-primary">Botón Primario</button>
+		<button type="button" class="btn btn-primary active">Botón Primario Activo</button>
+		<button type="button" class="btn btn-primary disabled">Botón Primario Inactivo</button-->
+		<!--h3>Grupo de Botones</h3>
+		<div class="btn-group">
+	  		<button type="button" class="btn btn-primary">Primer Boton</button>
+	  		<button type="button" class="btn btn-primary">Segundo Boto</button>
+	  		<button type="button" class="btn btn-primary">Tercer Boton</button>
+		</div-->
+		<!--h4>Tamaño de los Grupos de Botones</h4>
+		<div class="btn-group btn-group-lg">
+			<button type="button" class="btn btn-primary">Primer lg</button>
+			<button type="button" class="btn btn-primary">Segundo lg</button>
+			</div>
+		<div class="btn-group btn-group-md">
+			<button type="button" class="btn btn-primary">Primer md</button>
+			<button type="button" class="btn btn-primary">Segundo md</button>
+		</div>
+		<div class="btn-group btn-group-sm">
+			<button type="button" class="btn btn-primary">Primer sm</button>
+			<button type="button" class="btn btn-primary">Segundo sm</button>
+		</div>
+		<div class="btn-group btn-group-xs">
+			<button type="button" class="btn btn-primary">Primer xs</button>
+			<button type="button" class="btn btn-primary">Segundo xs</button>
+		</div-->
+		<!--h4>Grupos de Botones Verticales</h4>
+		<div class="btn-group-vertical">
+			<button type="button" class="btn btn-primary">Primer Botón</button>
+			<button type="button" class="btn btn-primary">Segundo Botón</button>
+			<button type="button" class="btn btn-primary">Tercer Botón</button>
+		</div-->
+		<!--h4>Grupo de Botones Justificados</h4>
+		<h5>Utilizando a</h5>
+		<div class="btn-group btn-group-justified">
+			<a href="#" class="btn btn-primary">Primer Botón con a</a>
+			<a href="#" class="btn btn-primary">Segundo Botón con a</a>
+			<a href="#" class="btn btn-primary">Tercer Botón con a</a>
+		</div>
+		<h5>Utilizando btn-group dentro de un btn-group-justified</h5>
+		<div class="btn-group btn-group-justified">
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Primer Boton dentro de btn-group</button>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Segundo Boton dentro de btn-group</button>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Tercer Boton dentro de btn-group</button>
+			</div>
+		</div-->
+		<!--h3>Grupos de Botones de anidacion y Menu desplegable</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary">Item 1</button>
+			<button type="button" class="btn btn-primary">Item 2</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Item 3<span class="caret"></span></button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Item 3-1</a></li>
+					<li><a href="#">Item 3-2</a></li>
+				</ul>
+			</div>
+		</div-->
+		<!--h3>Botones desplegables Divididos</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary">Item 1</button>
+			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+			<ul class="dropdown-menu" role="menu">
+				<li><a href="#">Item 1-1</a></li>
+				<li><a href="#">Item 1-2</a></li>
+			</ul>
+		</div-->
+	</section>
+	<section id="glyphicons-iconos">
+		<!--h2>Glyphicons</h2>
+		<div class="container">
+			<p>Para agreagar un glyphicon al archivo html, se debe hacer por medio de la etiqueta 'span' y se define la clase con el valor del atributo glyphicon seguido del nombre del glyphicon a utilizar. Los nombre de los glyphicons se encuentran en la pagina https://getbootstrap.com/docs/3.4/components/.</p>
+			<p>Icono de Correcto: <span class="glyphicon glyphicon-ok"></span></p>
+			<p>Icono de Siguiente con enlace: <a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a></p>
+			<p>Botón de Busqueda: <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Buscar</button></p>
+			<p>Botón de Busqueda con Estilo: <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-search"></span> Buscar </button></p>
+		</div-->
+	</section>
+	<section id="jumbotron-central">
+		<!--h2>Jumbotron</h2>
+		<div class="container">
+			<p>El jumbotron es un cuadro grande gris con esquinas redondeadas que amplía los tamaños de fuente del texto dentro de él y se utilizar para resaltar una información importante. Puede estar dentro de un "div" de clase ".container" si no se quiere que se extienda hasta los borde la pantalla, o si se desea lo contrario, se puede colocar fuera de dicho "div"</p>
+		</div-->
+		<!--div class="container">
+			<div class="jumbotron">
+				<h2>Jumbotron dentro de un 'div class="container"'</h2>
+				<p>La información se encuentra dentro del jumbotron, que a su vez está dentro de un .container y no se extiende hasta los bordes la pantalla</p>
+			</div>
+			<p>La información está fuera del jumbotron, pero dentro del container</p>
+		</div-->
+		<!--div class="jumbotron">
+		    <h2>Jumbotron fuera de un 'div class="container"'</h2>
+	    	<p>La información se encuentra dentro del jumbotron, que a su vez está fuera de un .container y se extiende hasta los bordes la pantalla</p>
+		</div>
+		<p>La información está fuera del jumbotron, y fuera del container</p-->
+	</section>
+	<section id="paneles">
+		<!--h2>Paneles en Bootstrap</h2>
+		<div class="container">
+			<p>Un panel en bootstrap es una caja bordeada con algo de relleno alrededor de su contenido. Se crean con la clase .panel, y el contenido dentro del panel tiene una clase .panel-body</p>
+		</div-->
+		<!--div class="container">
+			<h3>Panel Básico</h3>
+			<div class="panel panel-default">
+  				<div class="panel-body"><span>Aquí se presenta un Panel Básico. Solo tiene el texto y las esquinas redondeadas. Al colocar la clase panel-default, las características que se presentan son por defecto, los cuales se pueden modificar para darle estilo</span></div>
+			</div>
+		</div-->
+		<!--div class="container">
+			<h3>Panel de Encabezado</h3>
+			<div class="panel panel-default">
+			  	<div class="panel-heading"><h4>Encabezado del Panel. Trabaja con la clase panel-heading dentro del div panel-default. Mayormente para etiquetas de subtítulos</h4></div>
+			  	<div class="panel-body">Contenido del Panel. Trabaja con la clase panel-body dentro del div panel-default. Mayormente para etiquetas de párrafo</div>
+			</div>			
+		</div-->
+		<!--div class="container">
+			<h3>Panel de Pie de Página</h3>
+			<div class="panel panel-default">
+			 	<div class="panel-body">Contenido del Panel. Trabaja con la clase panel-body dentro del div panel-default. Mayormente para etiquetas de párrafo</div>
+			  	<div class="panel-footer"><p>Pie de Página del Panel. Trabaja con la clase panel-heading dentro del div panel-default.</p></div>
+			</div>			
+		</div-->
+		<!--div class="container">
+			<h3>Grupo de Paneles</h3>
+			<div class="panel-group">
+			  	<div class="panel panel-default">
+			    	<div class="panel-body">Contenido de uno de los Paneles dentro de un Grupo</div>
+			  	</div>
+			  	<div class="panel panel-default">
+			    	<div class="panel-body">Contenido de uno de los Paneles dentro de un Grupo</div>
+			 	 </div>
+			</div>	
+		</div-->
+		<!--div class="container">
+			<h3>Paneles con Estilos definidos</h3>
+			<p>Para la demostracion se esta usando Encabezado de Panel</p>
+		  	<div class="panel panel-default">
+		  		<div class="panel-heading">Estandar</div>
+		    	<div class="panel-body">Color predeterminado GRIS</div>
+		  	</div>
+		  	<div class="panel panel-primary">
+		  		<div class="panel-heading">Primario</div>
+		    	<div class="panel-body">Color predeterminado AZUL</div>
+		 	 </div>
+		 	 <div class="panel panel-success">
+		  		<div class="panel-heading">Exito</div>
+		    	<div class="panel-body">Color predeterminado VERDE</div>
+		 	 </div>
+		 	 <div class="panel panel-info">
+		  		<div class="panel-heading">Informacion</div>
+		    	<div class="panel-body">Color predeterminado AZUL</div>
+		 	 </div>
+		 	 <div class="panel panel-warning">
+		  		<div class="panel-heading">Advertencia</div>
+		    	<div class="panel-body">Color predeterminado NARANJAL</div>
+		 	 </div>
+		 	 <div class="panel panel panel-danger">
+		  		<div class="panel-heading">Peligro</div>
+		    	<div class="panel-body">Color predeterminado ROJO</div>
+		 	 </div>
+		</div-->
+	</section>
+	<section id="barra-navegacion">
+		<!--h2>Barra de Navegación</h2>
+		<h3>Barra de Navegación Estándar</h3>
+		<p>La barra de navegación que viene por defecto, se obtiene con la clase navbar-default</p>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<h3>Barra de Navegación Invertida</h3>
+		<p>El background de la barra de navegacion cambia a negro, se obtiene cambiando la clase navbar-default por navbar-inverse</p>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<h3>Barra de Navegación con Menú Desplegable</h3>
+		<p>Se obtiene agregando un elemento con class="dropdown" y dentro de él los elementos para el menú desplegable, los cuales son: un elemento que será visible en el menú y por el cual se realizará el despliegue, al que se le debe añadir los atributos class="dropdown-toggle" data-toggle="dropdown"; y los elementos desplegables que deben ir en una lista con class="dropdown-menu"</p>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Página 1
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">Página 1-1</a></li>
+		          <li><a href="#">Página 1-2</a></li>
+		          <li><a href="#">Página 1-3</a></li>
+		        </ul>
+		      </li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<h3>Barra de Navegación alineada a la Derecha</h3>
+		<p>Los elementos que se desean alinear a la derecha, deben estar dentro de un elemento con el atributo class="navbar-right</p>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		    </ul>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<h3>Botones en la barra de Navegación</h3>
+		<p>se agrega el elemento button dentro de la barra de navegación</p>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		    <button class="btn btn-primary navbar-btn">Botón</button>
+		  </div>
+		</nav>
+		<h3>Formulario de barra de Navegación</h3>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		    <form class="navbar-form navbar-left" action="/action_page.php">
+		      <div class="form-group">
+		        <input type="text" class="form-control" placeholder="Buscar">
+		      </div>
+		      <button type="submit" class="btn btn-success">Enviar</button>
+		    </form>
+		  </div>
+		</nav>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		    <form class="navbar-form navbar-left" action="/action_page.php">
+			  <div class="input-group">
+			    <input type="text" class="form-control" placeholder="Buscar">
+			    <div class="input-group-btn">
+			      <button class="btn btn-default" type="submit">
+			        <i class="glyphicon glyphicon-search"></i>
+			      </button>
+			    </div>
+			  </div>
+			</form>
+		  </div>
+		</nav>
+		<h3>Texto de barra de Navegación</h3>
+		<p>Se agrega a la barra de navegacion un elemento con class="mavbar-text"</p>
+		<nav class="navbar navbar-inverse">
+		  <ul class="nav navbar-nav">
+		    <li><a href="#">Primero</a></li>
+		    <li><a href="#">Segundo</a></li>
+		  </ul>
+		  <p class="navbar-text">El texto deseado con narbar-text</p>
+		</nav-->
+		<!--h3>Barra de Navegación Fija</h3>
+		<p>La barra de navegación puede quedarse fija en la pantalla mientras se revisa el contenido. La posición puede ser en la parte superior como en la inferior. Para dejar fija la barra en la parte superior se utiliza navbar-fixed-top y para la parte inferior el navbar-fixed-bottom</p>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del Sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Nombre del Sitio</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Inicio</a></li>
+		      <li><a href="#">Página 1</a></li>
+		      <li><a href="#">Página 2</a></li>
+		      <li><a href="#">Página 3</a></li>
+		    </ul>
+		  </div>
+		</nav-->
+		<!--h3>Contraer la Barra de Navegación</h3>
+		<p>Comumente llamado menu hamburguesa</p>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Nombre del Sitio</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Inicio</a></li>
+		        <li><a href="#">Página 1</a></li>
+		        <li><a href="#">Página 2</a></li>
+		        <li><a href="#">Página 3</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Inicio de Sesión</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav-->
+	</section>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

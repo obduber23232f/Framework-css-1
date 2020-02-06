@@ -1,0 +1,204 @@
+body{
+	background: violet;
+}
+h2{
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 60px;
+	font-weight: 700;
+}
+h3{
+	background: white;
+	padding: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+h4{
+	background: white;
+	padding: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+p{
+	background: white;
+	padding: 15px;
+	font-size: 20px;
+	text-align: justify;
+}
+	/*Contenedores*/
+#contenedores-fijo{
+	margin-bottom: 2%;
+}
+.container{
+	border: 3px solid blue;
+	text-align: center;
+	background: white;
+}
+.contenedor-fijo{
+	border: 3px solid red;
+}
+.container-fluid{
+	border: 3px solid green;
+	text-align: center;
+	background: white;
+}
+.contenedor-variable{
+	border: 3px solid orange;
+}
+#contenedores-fijo >.container>.row>.col-md-6{
+	border: 3px solid black;
+	padding: 15px;
+}
+#contenedores-variables>.container-fluid>.row>.col-md-6{
+	border: 3px solid red;
+	padding: 15px;
+}
+.uno{
+	background: lightblue;
+}
+.dos{
+	background: gray;
+}
+.tres{
+	background: lightyellow;
+}
+#contenedores-variables{
+	margin-bottom: 2%;
+}/
+	/*Ajustes de columnas*/
+/*#ajuste-columnas>.container-fluid>.row>.col-sm-6{
+	border: 3px solid black;
+	padding: 15px;
+}
+#ajuste-columnas>.container-fluid{
+	border: none;
+}
+#ajuste-columnas>.container-fluid>.row>.col-md-4, .col-md-6{
+	border: 3px solid blue;
+	padding: 15px;
+}
+#ajuste-columnas{
+	margin-bottom: 2%;
+}*/
+	/*Desplazamiento de Columnas*/
+/*#desplazando-columnas>.container-fluid{
+	border: none;
+}
+#desplazando-columnas>.container-fluid>.row>.col-sm-2, .col-sm-4{
+	border: 3px solid black;
+	padding: 15px;
+}
+#desplazando-columnas>.container-fluid>.row>.col-md-2, .col-md-4{
+	border: 3px solid blue;
+	padding: 15px;
+}
+#desplazando-columnas>.container-fluid>.row>.col-lg-2, .col-lg-4{
+	border: 3px solid red;
+	padding: 15px;
+}
+#desplazando-columnas{
+	margin-bottom: 2%;
+}*/
+	/*Anidando Columnas*/
+/*#aninando-columnas>.container-fluid{
+	border: none;
+}
+#aninando-columnas>.container-fluid>.row>.col-sm-9,.col-md-3{
+	border: 3px solid red;
+	padding: 15px;
+}
+#aninando-columnas>.container-fluid>.row>.col-sm-3,.col-md-7{
+	border: 3px solid blue;
+	padding: 15px;
+}
+#aninando-columnas>.container-fluid>.row>.col-md-2{
+	border: 3px solid green;
+	padding: 15px;
+}
+#aninando-columnas>.container-fluid>.row>.col-sm-9>.row>.col-sm-6{
+	border: 3px solid black;
+}
+#aninando-columnas>.container-fluid>.row>.col-sm-3>.row>.col-sm-12{
+	border: 3px solid orange;
+}
+#aninando-columnas>.container-fluid>.row>.col-md-7>.row>.col-md-4{
+	border: 3px solid orange;
+}
+#aninando-columnas>.container-fluid>.row>.col-md-3>.row>.col-md-6{
+	border: 3px solid black;
+}
+#aninando-columnas{
+	margin-bottom: 2%;
+}*/
+	/*Reordenando Columnas*/
+/*#reordenando-columnas>.container-fluid{
+	border: none;
+}
+#reordenando-columnas>.container-fluid>.row{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#reordenando-columnas>.container-fluid>.row>.original{
+	border: 3px solid red;
+	padding: 15px;
+}
+#reordenando-columnas>.container-fluid>.row>.reordenado{
+	border: 3px solid black;
+	padding: 15px;
+}
+#reordenando-columnas{
+	margin-bottom: 2%;
+}*/
+	/*Botones*/
+/*#botones>.container-fluid{
+	border: none;
+}
+#botones{
+	margin-bottom: 2%;
+}*/
+	/*Glyphicons*/
+/*#glyphicons-iconos{
+	margin-bottom: 2%;
+}*/
+	/*Jumbotron*/
+#jumbotron-central>.container>.jumbotron>h2{
+	color: black;
+	text-align: center;
+	padding: 15px;
+	font-size: 60px;
+	font-weight: 700;
+}
+#jumbotron-central>.jumbotron>h2{
+	color: black;
+	text-align: center;
+	padding: 15px;
+	font-size: 60px;
+	font-weight: 700;
+}
+/*.jumbotron{
+	background: lightblue;
+	padding-left: 15px;
+	padding-right: 15px;
+}*/
+/*#jumbotron-central{
+	margin-bottom: 2%;
+}*/
+#paneles>.container>.panel-default>.panel-heading>h4{
+	padding: 0px;
+	background: none;
+	font-weight: 600;
+}
+#paneles>.container>.panel-default>.panel-footer>p{
+	padding: 0px;
+	background: none;
+	font-weight: 600;
+}
+/*#paneles{
+	margin-bottom: 2%;
+}*/
+#barra-navegacion>.navbar>.navbar-text{
+	background: none;
+	padding: 0px;
+	font-size: 14px;
+}
