@@ -1,0 +1,13 @@
+.jumbotron h2{
+font-size: 60px;
+text-align: center;
+}
+.glyphicon{
+	font-size: 25px;
+}
+.panel-body{
+	text-align: center;
+}
+.navbar{
+	background: lightblue;
+}
