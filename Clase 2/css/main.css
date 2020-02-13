@@ -9,5 +9,24 @@
 	text-align: center;
 }
 .navbar{
-	background: red;
+	background:blue;
+}
+.navbar-brand{
+	
+	width: 100px;
+}
+.navbar-brand img{
+	width: 100%;
+	height: 150%;
+}
+.panel-body{
+	margin: 0px;
+	padding: 0px;
+}
+.img-thumbnail{
+	margin: 0px;
+	padding: 0px;
+}
+.panel-body{
+	height: 200px;
 }
