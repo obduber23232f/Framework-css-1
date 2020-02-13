@@ -1,0 +1,890 @@
+/*
+	Theme Name: Herramientas online
+	Theme URI: http://comprasproductosonline.unaux.com/index.php
+	Author: Xioanny Vásquez
+	Description: Herramientas online
+	Version: 1.1
+*/ 
+
+body{	background: white;
+		color: black;
+		font-family: 'Nunito', sans-serif;
+		padding-top:0;
+		padding-bottom: 0;
+		padding-right: 0;
+		padding-left: 0;	
+	}
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+/*-------------------------------------------------ENCABEZADO-------------------------------------------------*/
+header{
+	width: 100vw;
+}
+.navbar-default .container-fluid{
+	background: #00548f;
+	width: 100vw;
+}
+.navbar-default .navbar-brand {
+	width: 180px;
+	height: 70px;
+	padding: 0;
+	padding-left: 10px;
+}
+.imagen{	
+	margin:0 auto;	
+}
+.navbar-collapse{
+	background: #00548f;
+}
+.navbar-default .navbar-form{
+	margin-top: 20px;
+}
+.navbar-default .navbar-form input{
+	width: 180px;
+	margin: 0;
+	padding: 0 10px;
+}
+.navbar-default .navbar-nav{
+	margin-top: 16px;
+	color: white;
+	margin-right: 20px;
+	width: 48%;
+	float: right;
+}
+#bs-example-navbar-collapse-1 a{
+	color: white;
+}
+textarea.form-control {
+  width: 100%;
+}
+.nav-pills > li.active > a{
+	background: black !important;	
+}
+nav a:hover{
+  background: white !important;
+  color: #1897bc !important;
+}
+.navbar-default .navbar-brand:hover {
+	background: #1897bc !important;
+}
+/*--------------------------------------------------PRINCIPAL-------------------------------------------------*/
+	/*--------------------------------Hero--------------------------*/
+#hero .jumbotron{
+	background: none;
+}
+#hero .jumbotron.hero__imagen{
+	margin-top: 2%;
+	height: 100%;
+	background-size: cover;
+}
+#hero .hero__color{
+	background-color: rgba(100,64,55,0.2);
+	height: 100%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	background-size: cover;
+}
+#hero .jumbotron .hero__color h2{
+	width: 100%;
+	font-size: 58px;
+	color: white;
+	margin-left: 4%;
+	line-height: 93px;
+	margin-right: 3%;
+	padding-right: 3%;
+}
+	/*----------------------------Categoria-------------------------*/
+#categoria .main__categorias{
+	margin-top: 2%;
+	width: 92%;
+	margin-bottom: 4%;
+}
+#categoria .subtitulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 0;
+	height: 110px;
+}
+#categoria .subtitulo h2{
+	text-align: center;
+	margin-top: 1%;
+	color: #1897bc;
+}
+#categoria hr{
+	border: 1px solid #1897bc;
+}
+#categoria .contenido__categoria{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 0;
+	border-bottom: 1px solid #f1f1f1;
+}
+#categoria .contenido__categoria .row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#categoria .categoria__producto{
+	margin: 0 0 4% 0;
+	padding: 0;
+}
+#categoria article{
+	width: 25%;
+}
+#categoria .categoria__producto .panel-default{
+	border-radius: 7px;
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#categoria .categoria__producto .panel-default:hover{
+	box-shadow: 0px 0px 20px #2a2a2a;
+	border: 1px solid #8e8e8e;
+}
+#categoria .categoria__producto .panel-default:hover .panel-footer{
+	background: #FF9933;
+}
+#categoria .categoria__producto .panel-default:hover .panel-body{
+	border-bottom: 1px solid #FF9933;
+}
+#categoria .categoria__producto .panel-body{
+	margin: 0;
+	padding: 0;
+	height: 120px;
+}
+#categoria .categoria__producto .panel-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	border-radius: 0 0 7px 7px;
+	background: #1897bc;
+	padding-top: 15px;
+}
+#categoria .main__categorias .categoria__producto h3{
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+	color: white;
+}
+#categoria .main__categorias .categoria__producto .panel-default:hover h3{
+	color: white;
+}
+#categoria .main__categorias .categoria__producto img{
+	width: 100%;
+	height: 100%;
+	border-radius: 7px 7px 0 0;
+}
+#categoria .main__categorias .categoria__producto a:hover{
+	text-decoration: none;
+}
+	/*--------------------------Forma de pago-----------------------*/
+#pago .col-md-12{
+	margin: 0;
+	padding: 0;
+}
+#pago .col-md-12 .hero__imagen{
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+}
+#pago .hero__color{
+	background-color: rgba(255,185,113,0.3);
+	background-size: 100%;
+	height: 100%;
+}
+#pago .subtitulo .main__pago{
+	margin-top: 2%;
+	width: 92%;
+	margin-bottom: 1%;
+}
+#pago .subtitulo h2{
+	text-align: center;
+	color: white;
+	margin-top: 1%;
+}
+#pago .subtitulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 110px;
+}
+#pago .subtitulo .col-md-12{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#pago .contenido__pago{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-bottom: 1px solid #f1f1f1;
+}
+#pago .contenido__pago .row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#pago .pago__tipo{
+	width: 25%;
+}
+#pago hr{
+	border: 1px solid white;
+	margin-bottom: 0;
+}
+#pago .hero__color .main__pago{
+	margin-top: 7%;
+	width: 92%;
+	margin-bottom: 4%;
+}
+#pago a:focus{
+	outline: 5px solid transparent;
+	text-decoration: none;
+}
+#pago a:hover{
+	text-decoration: none;
+}
+#pago a:focus .thumbnail{
+	box-shadow: 0px 0px 20px #2a2a2a;
+	border: 1px solid #8e8e8e;	
+}
+#pago a:focus .thumbnail h3{
+	color: #1897bc;	
+}
+#pago a:hover .thumbnail h3{
+	text-decoration: none;
+	color: #1897bc;	
+}
+#pago .pago__tipo .thumbnail{
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 190px;
+	border-radius: 7px;	
+}
+#pago .pago__tipo .thumbnail h3{
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #7e7e7e;
+}
+#pago .modal-title{
+	color: #1897bc; 
+}
+#pago .pago__tipo .thumbnail .caption{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#pago .pago__tipo .thumbnail .imagen{
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#pago .pago__tipo .thumbnail .imagen .paypal{
+	width: 43%;
+	height: 90px;
+}
+#pago .pago__tipo .thumbnail .imagen .credito{
+	width: 56%;
+	height: 92px;
+}
+#pago .pago__tipo .thumbnail .imagen .transferencia{
+	width: 67%;
+	height: 95px;
+}
+#pago .pago__tipo .thumbnail .imagen .mercado-pago{
+	width: 62%;
+	height: 70px;
+}
+/*---------------------------------------------------FOOTER---------------------------------------------------*/
+#pie-pagina .contenido__footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#main__footer{
+	margin-top: 2%;
+	width: 92%;
+}
+#main__footer .col-md-3{
+	padding-left: 0.7%;
+	padding-right: 0.7%;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+#pie-pagina .contenido__footer .row .col-md-3 h4{
+	margin-top: 30px;
+	color: #5e5e5e;
+	font-weight: 700;
+	font-size: 14px;
+}
+#pie-pagina .contenido__footer p{
+	font-size: 12px;
+	color: #6a6a6a;
+}
+#pie-pagina .contenido__footer p a{
+	color: #6a6a6a;
+}
+#pie-pagina .apps{
+	text-align: center;
+}
+#pie-pagina .btn-primary{
+	width: 155px;
+	text-align: center;
+	background: #006699;
+	border-color: #006699;
+}
+#pie-pagina .contenido__footer .row .aplicacion h4{
+	text-align: center;
+}
+#pie-pagina .apps a{
+	padding: 0.5%;
+	font-size: 12px;
+}
+#pie-pagina .apps img{
+	width: 35px;
+	height: 35px;
+}
+#pie-pagina .contenido__footer .row .col-md-12{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#pie-pagina .contenido__footer .row .col-md-12 p{
+	color: #6a6a6a;
+	font-size: 12px;
+	font-weight: 700;
+}
+#pie-pagina .col-xs-4{
+	text-align: center;
+}
+#pie-pagina .col-xs-4 a{
+	color: #6a6a6a;
+}
+#pie-pagina .col-xs-4 span{
+	visibility: hidden;
+}
+#pie-pagina .col-xs-12 p{
+	text-indent: 20px;
+}
+/*----------------------------------------------------MEDIA---------------------------------------------------*/
+@media (min-width: 1200px) {
+	/*------------------------------------------ENCABEZADO----------------------------------------*/
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: white;
+	}
+	.navbar-default .navbar-form input{
+		width: 100%;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+	  background-color: white;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar{
+	  background-color: #00548f;
+	}
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto .panel-default{
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 140px;
+	}
+	#categoria .categoria__producto .panel-footer{
+		height: 50px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo .thumbnail{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+}
+@media (max-width: 767px) {
+	/*------------------------------------------ENCABEZADO----------------------------------------*/
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: white;
+	}
+	.navbar-default .navbar-form input{
+		width: 100%;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+	  background-color: white;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar{
+	  background-color: #00548f;
+	}
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	#categoria .categoria__producto{
+		margin: 0 0 4% 0;
+		padding: 0;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo .thumbnail{
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	/*--------------------------------------------FOOTER------------------------------------------*/
+	#pie-pagina .app__oculto{
+		visibility: visible;
+	}
+	#pie-pagina .contenido__footer .row .col-md-3 h4{
+		font-size: 11px;
+	}
+	#pie-pagina .contenido__footer .row .col-md-12 p{
+		font-size: 12px;
+	}
+	#pie-pagina .app__oculto img{
+		width: 30px;
+		height: 30px;
+	}
+	#pie-pagina .app__oculto{
+		padding-top: 20px;
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#pie-pagina .col-xs-4{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#pie-pagina .col-xs-4 a{
+		font-size: 14px;
+	}
+	#pie-pagina .col-xs-4 span{
+		visibility: visible;
+		font-size: 14px;
+	}
+	#pie-pagina .contenido__footer .row .col-xs-12 h4{
+		margin-top: 30px;
+		color: #8e8e8e;
+		font-weight: 700;
+		font-size: 16px;
+	}
+	#pie-pagina .col-md-12 p{
+		margin-top: 20px;
+	}
+}
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*--------------------------------Hero--------------------------*/
+@media (min-width: 875px) and (max-width: 918px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 57px;
+	}
+}
+@media (min-width: 835px) and (max-width: 874px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 55px;
+	}
+}
+@media (min-width: 803px) and (max-width: 834px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 53px;
+	}
+}
+@media (min-width: 768px) and (max-width: 802px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 50px;
+		line-height: 90px;
+	}
+}
+@media (min-width: 734px) and (max-width: 767px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 48px;
+		line-height: 85px;
+	}
+}
+@media (min-width: 684px) and (max-width: 733px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 45px;
+		line-height: 80px;
+	}
+}
+@media (min-width: 639px) and (max-width: 683px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 41px;
+		line-height: 77px;
+	}
+}
+@media (min-width: 596px) and (max-width: 638px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 39px;
+		line-height: 75px;
+	}
+}
+@media (min-width: 555px) and (max-width: 595px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 36px;
+		line-height: 69px;
+	}
+}
+@media (min-width: 415px) and (max-width: 554px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 34px;
+		line-height: 65px;
+	}
+}
+@media (min-width: 361px) and (max-width: 414px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 32px;
+		line-height: 62px;
+	}
+}
+@media (min-width: 321px) and (max-width: 360px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 27px;
+		line-height: 55px;
+	}
+}
+@media (max-width: 320px) {
+	#hero .col-md-12 .hero__color h2{
+		font-size: 24px;
+		line-height: 53px;
+	}
+}
+@media (min-width: 768px) and (max-width: 990px) {
+	/*------------------------------------------ENCABEZADO----------------------------------------*/
+	.navbar-nav{
+		clear: both !important;
+		float: left !important;
+	}
+	.navbar-right {
+   		float: left !important;
+   		margin-left: 180px;
+    	margin-right: 0px;
+    	width: 70%;
+  	}
+  	.navbar-default .navbar-form input{
+		width: 100%;
+	}
+	.navbar-default .navbar-nav{
+		margin-top: 0;
+		padding-top: 0;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+	}
+}
+@media (min-width: 871px) and (max-width: 990px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo .thumbnail{
+		height: 170px;
+	}
+	#pago .pago__tipo .thumbnail h3{
+		font-size: 17px;
+	}
+	#pago .pago__tipo .thumbnail .caption{
+		height: 30px;
+	}
+	#pago .pago__tipo .thumbnail .imagen{
+		height: 130px;
+	}
+	#pago .pago__tipo .thumbnail .imagen .paypal{
+		height: 65%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .credito{
+		height: 70%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .transferencia{
+		height: 70%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .mercado-pago{
+		height: 55%;
+	}	
+}
+@media (min-width: 768px) and (max-width: 870px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto .panel-default{
+		margin-right: 4%;
+		margin-left: 4%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 100px;
+	}
+	#categoria .categoria__producto .panel-footer{
+		height: 50px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo .thumbnail .caption{
+		height: 30px;
+	}
+	#pago .pago__tipo .thumbnail .imagen{
+		height: 120px;
+	}
+	#pago .pago__tipo .thumbnail .imagen .paypal{
+		height: 60%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .credito{
+		height: 70%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .transferencia{
+		height: 65%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .mercado-pago{
+		height: 50%;
+	}	
+}
+@media (min-width: 604px) and (max-width: 767px) {
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .subtitulo h2{
+		font-size: 24px;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 180px;
+	}
+	#pago .pago__tipo .thumbnail .imagen .paypal{
+		height: 90%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .credito{
+		height: 90%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .transferencia{
+		height: 90%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .mercado-pago{
+		height: 80%;
+	}
+}
+@media (min-width: 650px) and (max-width: 767px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 2.5%;
+		width: 50%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 160px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 5%;
+		width: 50%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail h3{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		font-size: 17px;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 180px;
+	}
+}
+@media (min-width: 555px) and (max-width: 649px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 1.5%;
+		width: 50%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 140px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 5%;
+		width: 50%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail h3{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 180px;
+	}
+}
+@media (min-width: 510px) and (max-width: 554px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 1.5%;
+		width: 50%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 120px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 3%;
+		width: 50%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail h3{
+		margin-top: 5px;
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 180px;
+	}
+}
+@media (min-width: 465px) and (max-width: 509px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 15%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 180px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 23%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 180px;
+	}
+	#pago .pago__tipo .thumbnail h3{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		font-size: 17px;
+	}
+	/*--------------------------------------------FOOTER------------------------------------------*/
+	#pie-pagina .col-xs-4 span{
+		visibility: hidden;
+	}
+}
+@media (min-width: 415px) and (max-width: 464px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 10%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 180px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 25%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 180px;
+	}
+	#pago .pago__tipo .thumbnail h3{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+	/*--------------------------------------------FOOTER------------------------------------------*/
+	#pie-pagina .col-xs-4 span{
+		visibility: hidden;
+	}
+}
+@media (min-width: 361px) and (max-width: 414px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 7%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 170px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 23%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 160px;
+	}
+	/*--------------------------------------------FOOTER------------------------------------------*/
+	#pie-pagina .col-xs-4 span{
+		visibility: hidden;
+	}
+}
+@media (max-width: 360px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*----------------------------Categoria-------------------------*/
+	#categoria .categoria__producto{
+		padding: 0 5%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#categoria .categoria__producto .panel-body{
+		height: 155px;
+	}
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo{
+		padding: 0 20%;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+	#pago .pago__tipo .thumbnail{
+		height: 160px;
+	}
+	/*--------------------------------------------FOOTER------------------------------------------*/
+	#pie-pagina .col-xs-4 span{
+		visibility: hidden;
+	}
+}
+@media (max-width: 414px) {
+	/*-------------------------------------------PRINCIPAL----------------------------------------*/
+	/*--------------------------Forma de pago-----------------------*/
+	#pago .pago__tipo .thumbnail h3{
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+	#pago .pago__tipo .thumbnail .imagen{
+		height: 110px;
+	}
+	#pago .pago__tipo .thumbnail .imagen .paypal{
+		height: 60%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .credito{
+		height: 65%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .transferencia{
+		height: 70%;
+	}
+	#pago .pago__tipo .thumbnail .imagen .mercado-pago{
+		height: 60%;
+	}
+	/*--------------------------------------------FOOTER------------------------------------------*/
+	#pie-pagina .col-md-12 p{
+		text-align: left;
+		margin-top: 20px;
+	}
+}
+	
