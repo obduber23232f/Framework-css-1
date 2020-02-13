@@ -26,7 +26,12 @@
 .img-thumbnail{
 	margin: 0px;
 	padding: 0px;
+	height: 200px;
 }
 .panel-body{
 	height: 200px;
+}
+.panel-footer{
+	margin: 0px;
+	padding: 0px;
 }
